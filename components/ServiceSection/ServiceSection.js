@@ -85,12 +85,8 @@ const ServiceSection = (props) => {
                 <div className="service-wrap">
                     <div className="service-title-left">
                         <div className="wpo-section-title">
-                            <h2>What Can We Offer
-                                For You</h2>
-                            <p>Lectus suspendisse mi massa et mollis diam urna interdum consequat.
-                                Libero quis non odio sed convallis cursus fames vitae volutpat.
-                                At congue viverra integer est. Quam convallis dignissim cras sit morbi diam.</p>
-                            <Link onClick={ClickHandler} href="/service">See All Services....</Link>
+                            <h2>Sizin İçin Ne Sunabiliriz</h2>
+                            <p>Erden Alüminyum olarak, yaşam ve iş alanlarınızı daha güvenli, estetik ve işlevsel hale getirmek için geniş kapsamlı çözümler sunuyoruz.</p>
                         </div>
 
                     </div>

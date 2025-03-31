@@ -17,12 +17,10 @@ const ProjectSection = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-4">
                         <div className="project-text">
-                            <span>Featured Works</span>
-                            <h2>Architecture is about experience,
-                                not only visual</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur. Integer eget penatibus iaculis turpis risus.
-                                Phasellus amet sit donec risus velit massa sit.</p>
-                            <Link href="/project-single" className="theme-btn">Discover More</Link>
+                            <span>Galeri</span>
+                            <h2>Estetik ve Dayanıklılığın İzinde!</h2>
+                            <p>Galeri alanımızda, Erden Alüminyum’un estetik ve dayanıklılığı bir araya getiren projelerini keşfedin! Her bir fotoğraf, kaliteli işçiliğimizin ve yenilikçi çözümlerimizin bir yansımasıdır.</p>
+                            <Link href="/project-single" className="theme-btn">Daha Fazla</Link>
                         </div>
                     </div>
                     <div className="col-lg-8">
@@ -37,9 +35,7 @@ const ProjectSection = (props) => {
                                                     <div className="grid" key={i}>
                                                         <div className="img-holder">
                                                             <Image src={project.pImg} alt="" />
-                                                            <div className="hover-content">
-                                                                <h2><Link onClick={ClickHandler} href={'/project/[slug]'} as={`/project/${project.slug}`}><i className="ti-plus"></i></Link></h2>
-                                                            </div>
+                                                        
                                                         </div>
                                                     </div>
                                                 ))}

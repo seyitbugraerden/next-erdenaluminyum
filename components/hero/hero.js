@@ -15,7 +15,7 @@ const Hero = () => {
                                         Interior solution</h2>
                                     <p>Dapibus aliquet lacus sem egestas netus vestibulum sit turpis scelerisque
                                         pharetra pelque diam pharetra curabitur.</p>
-                                    <Link href="/about" className="theme-btn">Discover More</Link>
+                                    <Link href="/about" className="theme-btn">Daha Fazla</Link>
                                 </div>
                             </div>
                         </div>

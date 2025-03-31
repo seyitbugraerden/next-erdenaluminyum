@@ -14,7 +14,7 @@ const Hero3 = () => {
                                     <span>BEST DESIGNERS & ARCHITECTORS</span>
                                     <h2 className="title">Creating Your <br />
                                         Future Dream Home</h2>
-                                    <Link href="/about" className="theme-btn">Discover More</Link>
+                                    <Link href="/about" className="theme-btn">Daha Fazla</Link>
                                 </div>
                             </div>
                         </div>

@@ -19,7 +19,7 @@ const CtaSection2 = (props) => {
                             </Link>
                             <p>Contact us for any kind of information. We are ready for support you any time.</p>
                             <div className="cta-btn">
-                                <Link onClick={ClickHandler} className="theme-btn" href="/contact">Discover More</Link>
+                                <Link onClick={ClickHandler} className="theme-btn" href="/contact">Daha Fazla</Link>
                             </div>
                         </div>
                     </div>

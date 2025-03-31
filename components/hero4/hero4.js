@@ -33,7 +33,7 @@ const Hero4 = () => {
                                 </div>
                                 <div className="clearfix"></div>
                                 <div data-swiper-parallax="500" className="slide-btns">
-                                    <Link href="/about" className="theme-btn-s2">Discover More</Link>
+                                    <Link href="/about" className="theme-btn-s2">Daha Fazla</Link>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Hero4 = () => {
                                 </div>
                                 <div className="clearfix"></div>
                                 <div data-swiper-parallax="500" className="slide-btns">
-                                    <Link href="/about" className="theme-btn-s2">Discover More</Link>
+                                    <Link href="/about" className="theme-btn-s2">Daha Fazla</Link>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Hero4 = () => {
                                 </div>
                                 <div className="clearfix"></div>
                                 <div data-swiper-parallax="500" className="slide-btns">
-                                    <Link href="/about" className="theme-btn-s2">Discover More</Link>
+                                    <Link href="/about" className="theme-btn-s2">Daha Fazla</Link>
                                 </div>
                             </div>
                         </div>

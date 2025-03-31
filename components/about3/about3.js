@@ -27,7 +27,7 @@ const About3 = (props) => {
                                     Sed in volutpat sit porttitor vestibulum quis semper tristique..</p>
                             </div>
                             <div className="left-btn">
-                                <Link onClick={ClickHandler} href="/about" className="theme-btn">Discover More</Link>
+                                <Link onClick={ClickHandler} href="/about" className="theme-btn">Daha Fazla</Link>
                                 <Link onClick={ClickHandler} className="call" href="/contact">
                                     <div className="icon">
                                         <Image src={icon} alt="" />

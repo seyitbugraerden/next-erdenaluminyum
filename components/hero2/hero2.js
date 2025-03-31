@@ -69,7 +69,7 @@ const Hero2 = () => {
                                                     <p>{slide.Des}</p>
                                                 </div>
                                                 <div className="btns">
-                                                    <Link href="/about" className="theme-btn-s2">Discover More</Link>
+                                                    <Link href="/about" className="theme-btn-s2">Daha Fazla</Link>
                                                 </div>
                                             </div>
                                         ))
