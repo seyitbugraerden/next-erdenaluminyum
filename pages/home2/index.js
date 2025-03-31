@@ -9,7 +9,6 @@ import Testimonial2 from '../../components/Testimonial2/Testimonial2';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import TeamSectionS2 from '../../components/TeamSectionS2/TeamSectionS2';
 import BlogSection2 from '../../components/BlogSection2/BlogSection2';
-import Footer from '../../components/footer/Footer';
 
 const HomePage2 = () => {
     return (
@@ -23,7 +22,6 @@ const HomePage2 = () => {
             <Testimonial2 />
             <CtaSection />
             <BlogSection2 />
-            <Footer/>
             <Scrollbar />
         </Fragment>
     )

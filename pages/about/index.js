@@ -3,7 +3,6 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import About4 from '../../components/about4/about4';
 import Navbar from '../../components/Navbar/Navbar'
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Footer from '../../components/footer/Footer';
 import FunFact from '../../components/FunFact';
 import ProjectSectionS2 from '../../components/ProjectSectionS2/ProjectSectionS2';
 import CtaSection2 from '../../components/CtaSection2/CtaSection2';
@@ -19,7 +18,6 @@ const AboutPage = () => {
             <ProjectSectionS2 prClass={'section-padding'}/>
             <CtaSection2 />
             <BlogSection2 />
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

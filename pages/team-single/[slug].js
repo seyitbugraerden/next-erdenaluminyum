@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import { useRouter } from 'next/router'
-import Footer from '../../components/footer/Footer';
 import Teams from '../../api/Teams'
 import Image from 'next/image';
 
@@ -153,7 +152,6 @@ const TeamSinglePage = (props) => {
                     </div>
                 </div>
             </div>
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

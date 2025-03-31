@@ -11,7 +11,6 @@ import {
   incrementQuantity,
   decrementQuantity,
 } from "../../store/actions/action";
-import Footer from "../../components/footer/Footer";
 import Logo from '/public/images/logo.svg'
 
 const CartPage = (props) => {
@@ -159,7 +158,6 @@ const CartPage = (props) => {
           </div>
         </div>
       </div>
-      <Footer ftClass={'wpo-site-footer-s2'}  />
       <Scrollbar />
     </Fragment>
   );

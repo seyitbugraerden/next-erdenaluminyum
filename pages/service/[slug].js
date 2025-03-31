@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import Contact from './single/contact';
 import ServiceSidebar from './single/sidebar';
 import Services from '../../api/Services';
-import Footer from '../../components/footer/Footer';
 import Image from 'next/image';
 
 const ServiceSinglePage = (props) => {
@@ -126,7 +125,6 @@ const ServiceSinglePage = (props) => {
                     </div>
                 </div>
             </div>
-            <Footer/>
             <Scrollbar />
         </Fragment>
     )

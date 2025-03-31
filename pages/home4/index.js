@@ -10,7 +10,6 @@ import Pricing from '../../components/Pricing/Pricing';
 import Testimonial3 from '../../components/Testimonial3/Testimonial3';
 import CtaSection2 from '../../components/CtaSection2/CtaSection2';
 import BlogSection2 from '../../components/BlogSection2/BlogSection2';
-import Footer from '../../components/footer/Footer';
 
 const HomePage4 = () => {
     return (
@@ -25,7 +24,6 @@ const HomePage4 = () => {
             <Testimonial3 />
             <CtaSection2 />
             <BlogSection2 />
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

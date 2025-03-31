@@ -4,7 +4,6 @@ import blogs from '../../api/blogs'
 import Link from 'next/link'
 import PageTitle from '../../components/pagetitle/PageTitle';
 import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Image from 'next/image'
 import blog3 from '/public/images/blog-details/comments-author/img-1.jpg'
@@ -242,7 +241,6 @@ const BlogSingle = (props) => {
                     </div>
                 </div>
             </section>
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

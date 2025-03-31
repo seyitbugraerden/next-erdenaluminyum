@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import Project from '../../api/Projects';
 import Contact from './contact';
 import RelatedProject from './related';
-import Footer from '../../components/footer/Footer';
 import Image from 'next/image';
  
 const ProjectSinglePage = (props) => {
@@ -163,7 +162,6 @@ const ProjectSinglePage = (props) => {
                     </div>
                 </div>
             </div>
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

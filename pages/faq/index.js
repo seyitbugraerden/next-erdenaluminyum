@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import FaqSection from './FaqSection'
-import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 
 const FaqPage = () => {
@@ -22,7 +21,6 @@ const FaqPage = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

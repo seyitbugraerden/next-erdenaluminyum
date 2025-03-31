@@ -4,9 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import { addToCart } from "../../store/actions/action";
 import ShopProduct from '../../components/ShopProduct';
-import api from "../../api";
 import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/footer/Footer';
 
 const ShopPage = ({ addToCart }) => {
 
@@ -34,7 +32,6 @@ const ShopPage = ({ addToCart }) => {
                     </div>
                 </div>
             </section>
-            <Footer />
             <Scrollbar />
         </Fragment>
     )

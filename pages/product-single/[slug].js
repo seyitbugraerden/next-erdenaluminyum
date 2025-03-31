@@ -7,7 +7,6 @@ import api from "../../api";
 import { useRouter } from 'next/router'
 import PageTitle from '../../components/pagetitle/PageTitle';
 import ProductTabs from './alltab';
-import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Logo from '/public/images/logo.svg'
 
@@ -47,7 +46,6 @@ const ProductSinglePage = (props) => {
                     <ProductTabs/>
                 </div>
             </section>
-            <Footer ftClass={'wpo-site-footer-s2'}/>
             <Scrollbar/>
         </Fragment>
     )
