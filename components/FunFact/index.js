@@ -8,23 +8,23 @@ const FunFact = (props) => {
     const funFact = [
         {
             title: '215',
-            subTitle: 'CURRENT CLIENTS',
+            subTitle: 'MUTLU MÜŞTERİ',
             Symbol: '+',
         },
         {
-            title: '50',
-            subTitle: 'AWARDS WINNING',
+            title: '5000',
+            subTitle: 'BAŞARILI PROJE',
             Symbol: '+',
         },
         {
             title: '15',
-            subTitle: 'YEARS OF EXPERIENCE',
+            subTitle: 'YILLIK DENEYİM',
             Symbol: '+',
         },
         {
-            title: '8',
-            subTitle: 'OFFICES WORLDWIDE',
-            Symbol: '+',
+            title: '100',
+            subTitle: 'MÜŞTERİ MEMNUNİYETİ',
+            Symbol: '%',
         },
 
 
