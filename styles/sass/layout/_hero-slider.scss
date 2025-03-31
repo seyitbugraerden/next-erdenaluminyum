@@ -378,7 +378,7 @@
 					font-weight: 400;
 					font-size: 70px;
 					line-height: 90px;
-					color: $dark-gray;
+					color: rgba(255,255,255,.7);
 					margin-bottom: 25px;
 
 					@media (max-width:1199px) {
@@ -1263,7 +1263,9 @@
     static-hero-s3
 --------------------------------------------*/
 .static-hero-s3 {
-	background: url(/images/slider/slide-11.jpg);
+	background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, .1)), url(../../../public/banner.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
 	@include media-query(1399px) {
 		height: 900px;
 	}
@@ -1296,7 +1298,7 @@
 				font-weight: 400;
 				font-size: 18px;
 				line-height: 30px;
-				color: $text-light-color;
+				color: rgba(255,255,255,.6);
 				max-width: 575px;
 				margin-bottom: 60px;
 				@include media-query(767px) {

@@ -39,21 +39,23 @@ const Header = (props) => {
                                         alt="logo" /></Link>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-md-1 col-1">
+                            <div className="col-lg-10 col-md-1 col-1">
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Home</Link>
+                                            <Link onClick={ClickHandler} href="/">Ana Sayfa</Link>
+                                        </li>
+                                        <li className="menu-item-has-children">
+                                            <Link onClick={ClickHandler} href="/">HAKKIMIZDA</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/">Home style 1</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home2">Home style 2</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home3">Home style 3</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home4">Home style 4</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/project">Portfolio 1</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/project-2">Portfolio 2</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/project/Furniture-&-Decor">Portfolio Single</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Pages</Link>
+                                            <Link onClick={ClickHandler} href="/">HİZMETLERİMİZ</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/about">About</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
@@ -70,14 +72,6 @@ const Header = (props) => {
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Portfolio</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/project">Portfolio 1</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/project-2">Portfolio 2</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/project/Furniture-&-Decor">Portfolio Single</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} href="/">Service</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/service">Service 1</Link></li>
@@ -86,93 +80,8 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} href="/service/Interior-Design">Service Single</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Blog</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/blog">Blog right sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog left sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/blog-fullwidth">Blog fullwidth</Link></li>
-                                                <li className="menu-item-has-children">
-                                                    <Link onClick={ClickHandler} href="/">Blog details</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link onClick={ClickHandler} href="/blog-single/The-Golden-Ratio-2D-Sketch">Blog details right sidebar</Link>
-                                                        </li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/The-Golden-Ratio-2D-Sketch">Blog details left
-                                                            sidebar</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-fullwidth/The-Golden-Ratio-2D-Sketch">Blog details
-                                                            fullwidth</Link></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
+                                        <li><Link onClick={ClickHandler} href="/contact">İLETİŞİM</Link></li>
                                     </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-md-2 col-2">
-                                <div className="header-right">
-                                    <div className="mini-cart">
-                                        <button className="cart-toggle-btn" onClick={() => setcartState(!cartActive)}>
-                                            {" "}
-                                            <i className="fi flaticon-shopping-cart"></i>{" "}
-                                            <span className="cart-count">{carts.length}</span>
-                                        </button>
-                                        <div className={`mini-cart-content ${cartActive ? "mini-cart-content-toggle" : ""}`}>
-                                            <button className="mini-cart-close" onClick={() => setcartState(!cartActive)}><i className="ti-close"></i></button>
-                                            <div className="mini-cart-items">
-                                                {carts &&
-                                                    carts.length > 0 &&
-                                                    carts.map((catItem, crt) => (
-                                                        <div className="mini-cart-item clearfix" key={crt}>
-                                                            <div className="mini-cart-item-image">
-                                                                <span>
-                                                                    <img src={catItem.proImg} alt="icon" />
-                                                                </span>
-                                                            </div>
-                                                            <div className="mini-cart-item-des">
-                                                                <p>{catItem.title} </p>
-                                                                <span className="mini-cart-item-price">
-                                                                    ${catItem.price} x {" "} {catItem.qty}
-                                                                </span>
-                                                                <span className="mini-cart-item-quantity">
-                                                                    <button
-                                                                        onClick={() =>
-                                                                            props.removeFromCart(catItem.id)
-                                                                        }
-                                                                        className="btn btn-sm btn-danger"
-                                                                    >
-                                                                        <i className="ti-close"></i>
-                                                                    </button>{" "}
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    ))}
-                                            </div>
-                                            <div className="mini-cart-action clearfix">
-                                                <span className="mini-checkout-price">Subtotal: <span> ${totalPrice(carts)}</span></span>
-                                                <div className="mini-btn">
-                                                    <Link href="/checkout" className="view-cart-btn s1">Checkout</Link>
-                                                    <Link href="/cart" className="view-cart-btn">View Cart</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="header-search-form-wrapper">
-                                        <div className="cart-search-contact">
-                                            <button onClick={() => setMenuState(!menuActive)} className="search-toggle-btn"><i
-                                                className={`fi ti-search ${menuActive ? "ti-close" : "fi "}`}></i></button>
-                                            <div className={`header-search-form ${menuActive ? "header-search-content-toggle" : ""}`}>
-                                                <form onSubmit={SubmitHandler}>
-                                                    <div>
-                                                        <input type="text" className="form-control"
-                                                            placeholder="Search here..." />
-                                                        <button type="submit"><i
-                                                            className="fi flaticon-loupe"></i></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
