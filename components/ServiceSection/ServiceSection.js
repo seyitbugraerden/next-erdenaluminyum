@@ -70,7 +70,7 @@ const ServiceSection = (props) => {
 
     return (
 
-        <section className="Arkitek-service-section-s3 section-padding">
+        <section className="Arkitek-service-section-s3 section-padding overflow-hidden">
             <div className="shape-1">
                 <svg width="596" height="590" viewBox="0 0 596 590" fill="none">
                     <path d="M148 590L596 0H0L148 590Z" />

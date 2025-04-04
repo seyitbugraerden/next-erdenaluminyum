@@ -28,8 +28,17 @@ const Header = (props) => {
           <div className="d-flex justify-content-between w-100 align-items-center">
             <div>
               <div className="navbar-header">
-                <Link className="navbar-brand" href="/">
-                  <Image src={Logo} alt="logo" />
+                <Link className="navbar-brand img_1" href="/">
+                  <Image
+                    src="/logo_white.png"
+                    alt="logo"
+                    width={320}
+                    height={40}
+                    className=""
+                  />
+                </Link>
+                <Link className="navbar-brand img_2" href="/">
+                  <Image src="/logo.png" alt="logo" width={320} height={40} />
                 </Link>
               </div>
             </div>
@@ -149,38 +158,8 @@ const Header = (props) => {
                     </li>
                   </ul>
                 </li>
-                <li className="menu-item-has-children">
-                  <Link onClick={ClickHandler} href="/">
-                    Service
-                  </Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link onClick={ClickHandler} href="/service">
-                        Service 1
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/service-2">
-                        Service 2
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/service-3">
-                        Service 3
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={ClickHandler}
-                        href="/service/Interior-Design"
-                      >
-                        Service Single
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
                 <li>
-                  <Link onClick={ClickHandler} href="/contact">
+                  <Link onClick={ClickHandler} href="/iletisim">
                     İLETİŞİM
                   </Link>
                 </li>

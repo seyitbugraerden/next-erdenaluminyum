@@ -1068,7 +1068,7 @@
                 width: 50%;
                 height: 100%;
                 content: "";
-                border-bottom: 2px dashed #779a65ad;
+                border-bottom: 2px dashed #c91920ad;
                 z-index: -1;
 
                 @media (max-width:1199px) {
@@ -1088,7 +1088,7 @@
                 width: 40%;
                 height: 100%;
                 content: "";
-                border-bottom: 2px dashed #779a65ad;
+                border-bottom: 2px dashed #c91920ad;
                 z-index: -1;
 
                 @media (max-width:1199px) {
@@ -1224,7 +1224,7 @@
         width: 100%;
         height: 100%;
         content: '';
-        background: #779A65;
+        background: #c91920;
         opacity: 0.95;
         z-index: -1;
     }
@@ -1392,7 +1392,7 @@
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 30px;
-                color: #779A65;
+                color: #c91920;
                 z-index: 1;
 
                 @media (max-width:399px) {
@@ -1402,7 +1402,7 @@
 
                 a {
                     position: relative;
-                    color: #779A65;
+                    color: #c91920;
                     padding-right: 20px;
                     transition: all .3s ease-in-out;
 

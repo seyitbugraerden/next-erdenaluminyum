@@ -27,7 +27,7 @@
             font-size: 16px;
             line-height: 30px;
             text-transform: uppercase;
-            color: #D9916A;
+            color: #c91920;
         }
 
         h2 {
@@ -75,18 +75,18 @@
         }
 
         .theme-btn {
-            background: #D9916A;
+            background: #c91920;
             color: #fff;
             border: 1px solid transparent;
 
             &::before {
-                border: 1px solid #D9916A;
+                border: 1px solid #c91920;
             }
 
             &:hover {
                 background: $white;
-                color: #D9916A;
-                border: 1px solid #D9916A;
+                color: #c91920;
+                border: 1px solid #c91920;
 
                 &::before {
                     border: 1px solid transparent;
@@ -116,7 +116,7 @@
         .info {
             width: 440px;
             height: 170px;
-            background: #D9916A;
+            background: #c91920;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -232,7 +232,7 @@
                 width: 100%;
                 height: 100%;
                 z-index: -11;
-                background: #779A65;
+                background: #c91920;
             }
         }
 
@@ -412,7 +412,7 @@
             font-size: 16px;
             line-height: 25px;
             text-transform: uppercase;
-            color: #D9916A;
+            color: #c91920;
             margin-top: 25px;
             display: block;
         }
@@ -457,7 +457,7 @@
 
         .owl-dot.active {
             width: 40px;
-            background: #D9916A;
+            background: #c91920;
             border-radius: 6px;
             transition: all .3s ease-in-out;
         }
@@ -520,7 +520,7 @@
 
                 &:hover {
                     a {
-                        color: #D9916A;
+                        color: #c91920;
                     }
                 }
             }
@@ -558,7 +558,7 @@
             font-size: 16px;
             line-height: 30px;
             text-transform: uppercase;
-            color: #D9916A;
+            color: #c91920;
         }
 
         h2 {
@@ -592,18 +592,18 @@
         }
 
         .theme-btn {
-            background: #D9916A;
+            background: #c91920;
             color: #fff;
             border: 1px solid transparent;
 
             &::before {
-                border: 1px solid #D9916A;
+                border: 1px solid #c91920;
             }
 
             &:hover {
                 background: $white;
-                color: #D9916A;
-                border: 1px solid #D9916A;
+                color: #c91920;
+                border: 1px solid #c91920;
 
                 &::before {
                     border: 1px solid transparent;
@@ -665,7 +665,6 @@
                 width: 96%;
                 height: 96%;
                 content: "";
-                background: rgba(119, 154, 101, 0.7);
                 opacity: 0;
                 transition: all .3s;
                 transform: scale(0);
@@ -733,7 +732,7 @@
             bottom: -20px;
             width: 347px;
             height: 496px;
-            background: #D9916A;
+            background: #c91920;
             z-index: -1;
 
             @include media-query(991px) {
@@ -846,7 +845,7 @@
                 width: 50%;
                 height: 100%;
                 content: "";
-                border-bottom: 2px dashed #779a65ad;
+                border-bottom: 2px dashed #c91920ad;
                 z-index: -1;
 
                 @media (max-width:1199px) {
@@ -866,7 +865,7 @@
                 width: 40%;
                 height: 100%;
                 content: "";
-                border-bottom: 2px dashed #779a65ad;
+                border-bottom: 2px dashed #c91920ad;
                 z-index: -1;
 
                 @media (max-width:1199px) {
@@ -1078,7 +1077,7 @@
 
         &:hover {
             .image {
-                border: 5px solid #D9916A;
+                border: 5px solid #c91920;
 
                 &::before {
                     background: rgba(217, 145, 106, 0.2);
@@ -1160,7 +1159,7 @@
                     top: -3px;
                     width: 190px;
                     height: 240px;
-                    background: #D9916A;
+                    background: #c91920;
                     z-index: -1;
                     transition: all .3s ease-in-out;
 
@@ -1334,7 +1333,7 @@
         letter-spacing: 0em;
         padding: 15px;
         width: 100%;
-        color: #779A65;
+        color: #c91920;
         display: flex;
         align-items: center;
         justify-content: center;

@@ -264,6 +264,26 @@
 	color: $theme-primary-color;
 }
 
+.clip {
+	clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+	width: 100%;
+	height: 70px;
+  }
+  
+  .clip_sec {
+	clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+	width: 100%;
+	height: 70px;
+  }
+  
+  .gallery_hover img{
+	transition: 500ms;
+  }
+  .gallery_hover:hover img{
+	filter: grayscale(50);
+	scale: .8 !important;
+  }
+
 @media screen and (min-width: 992px) {
 	.wpo-site-header #navbar {
 		/*** hover effect ***/
@@ -1656,7 +1676,7 @@
 
 				.fi:before {
 					line-height: unset;
-					color: #D9916A;
+					color: #c91920;
 					font-size: 25px;
 
 					@media (max-width:767px) {
@@ -1704,7 +1724,7 @@
 				line-height: 20px;
 				text-transform: uppercase;
 				color: #FFFFFF;
-				background: #D9916A;
+				background: #c91920;
 				padding: 14px 15px;
 
 				@media (max-width:1699px) {
@@ -1730,6 +1750,19 @@
 	position: relative;
 	z-index: 5555;
 }
+
+.fixed-navbar .img_2{
+	display: none;
+}
+
+.fixed-navbar.active .img_1{
+	display: none;
+}
+.fixed-navbar.active .img_2{
+	display: flex;
+	margin: auto;
+}
+
 
 .fixed-navbar.active .wpo-site-header {
 	position: fixed;

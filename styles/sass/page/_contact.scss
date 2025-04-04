@@ -155,6 +155,7 @@
 			text-align: center;
 			box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
 			padding: 40px;
+			height: 100%;
 
 			.office-info-icon{
 				width: 85px;
@@ -230,7 +231,6 @@
 	    height: 100%;
 	    border: 0;
 	    outline: 0;
-		filter: grayscale(100%);
 	}
 
 	h2.hidden{

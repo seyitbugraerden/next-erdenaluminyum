@@ -55,8 +55,8 @@ const Footer2 = (props) => {
             </div>
             <div className="col col-lg-4 col-md-6 col-sm-12 col-12 order-1 order-md-2">
               <div className="widget about-widget">
-                <div className="logo widget-title">
-                  <Image src={Logo} alt="logo" />
+                <div className="logo widget-title mb-5">
+                  <Image src="/logo_white.png" alt="logo" width={240} height={60} />
                 </div>
                 <p>
                   Estetik ve dayanıklılığı bir arada sunan ürünlerimizle,
