@@ -1763,7 +1763,11 @@
 	margin: auto;
 }
 
-
+@media(max-width:972px){
+	#img__gallery{
+		height: 350px !important;
+	}
+}
 .fixed-navbar.active .wpo-site-header {
 	position: fixed;
 	z-index: 555;

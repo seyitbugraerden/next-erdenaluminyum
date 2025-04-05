@@ -9,8 +9,8 @@ const AboutUsPage = () => {
       <Banner text="Referanslarımız" />
       <section className="container mb-5">
         <div className="row">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <div className="col-12 col-md-6 col-lg-4 col-xl-3 p-4">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div className="col-12 col-md-6 col-lg-4 col-xl-2 p-4">
               <Link href="/logo.png" target="_blank" className="gallery_hover">
                 <Image
                   key={i}
