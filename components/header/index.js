@@ -1,26 +1,17 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import { totalPrice } from "../../utils";
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import Logo from "/public/images/logo.svg";
 import Image from "next/image";
 
 const Header = (props) => {
   const [menuActive, setMenuState] = useState(false);
   const [cartActive, setcartState] = useState(false);
 
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-  };
-
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
-
-  const { carts } = props;
-
   return (
     <header id="header" className={`${props.topbarClass}`}>
       <div className={`wpo-site-header ${props.hclass} px-5`}>
@@ -61,7 +52,7 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link onClick={ClickHandler} href="/">
+                  <Link onClick={ClickHandler} href="/hakkimizda/biz-kimiz">
                     HAKKIMIZDA
                   </Link>
                   <ul className="sub-menu">
@@ -86,7 +77,11 @@ const Header = (props) => {
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link onClick={ClickHandler} href="/">
+                  <Link
+                    disabled
+                    onClick={ClickHandler}
+                    href="/hizmetlerimiz/cam-balkon-sistemleri"
+                  >
                     HİZMETLERİMİZ
                   </Link>
                   <ul className="sub-menu">

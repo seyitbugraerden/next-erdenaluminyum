@@ -1,31 +1,13 @@
 /*---------------------------
-	Fonts
+  Fonts
 ----------------------------*/
-
-@font-face {
-  font-family: 'titillium';
-  font-weight: 400;
-  font-style: normal;
-  src: local('titilliumregular'),
-    url('../../../fonts/text-font/titillium-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'titillium';
-  font-weight: 300;
-  font-style: normal;
-  src: local('titilliumthin'),
-    url('../../../fonts/text-font/titillium-thin-webfont.woff') format('woff');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:wght@100..700&display=swap');
 
 // fonts
 $base-font-size: 15;
-$base-font:'Raleway', sans-serif;
-$base-font-s2:'Josefin Sans', sans-serif;
-$heading-font: 'titillium';
-
-
+$base-font: 'Raleway', sans-serif;
+$base-font-s2: 'Josefin Sans', sans-serif;
+$heading-font: $base-font; // Başlık fontu olarak da Raleway kullanılıyor
 
 // color
 $dark-gray: #262626; //
@@ -41,7 +23,7 @@ $theme-primary-color-s2: #c91920; //
 $body-bg-color: #fff;
 $section-bg-color: #1E2E3E; //
 $section-bg-color-s2: #f9f9f9; //
-$text-color:#323232; //
+$text-color: #323232; //
 $text-light-color: #525252; //
 $heading-color: $dark-gray;
 $border-color: #DADADA; //
