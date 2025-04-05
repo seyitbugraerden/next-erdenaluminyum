@@ -29,7 +29,7 @@ const About = (props) => {
               Müşteri memnuniyetini ön planda tutarak, yenilikçi ve güvenilir alüminyum çözümleri sunuyoruz. Her projede kalite standartlarımızı koruyor en başarılı çözümleri sunuyoruz.
               </p>
              
-              <Link onClick={ClickHandler} href="/about" className="theme-btn" style={{marginTop:"60px"}}>
+              <Link onClick={ClickHandler} href="/hakkimizda/biz-kimiz" className="theme-btn" style={{marginTop:"60px"}}>
                 Daha Fazla
               </Link>
             </div>

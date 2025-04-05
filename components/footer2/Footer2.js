@@ -38,13 +38,16 @@ const Footer2 = (props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/">
+                      <Link href="tel:+905433299556">
                         <i className="fi flaticon-phone-call"></i>+90 543 329 95
                         56
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/">
+                      <Link
+                        href="https://maps.app.goo.gl/uKqCdSHcfdLKJ4ob9"
+                        target="_blank"
+                      >
                         <i className="fi flaticon-placeholder"></i>Şeyh Osman
                         Mahallesi Yeni Sanayi Sitesi, 66100 Merkez/Yozgat
                       </Link>
@@ -56,13 +59,18 @@ const Footer2 = (props) => {
             <div className="col col-lg-4 col-md-6 col-sm-12 col-12 order-1 order-md-2">
               <div className="widget about-widget">
                 <div className="logo widget-title mb-5">
-                  <Image src="/logo_white.png" alt="logo" width={240} height={60} />
+                  <Image
+                    src="/logo_white.png"
+                    alt="logo"
+                    width={240}
+                    height={60}
+                  />
                 </div>
                 <p>
                   Estetik ve dayanıklılığı bir arada sunan ürünlerimizle,
                   projelerinize değer katıyoruz.
                 </p>
-                <ul>
+                <ul className="d-none">
                   <li>
                     <Link onClick={ClickHandler} href="/">
                       <i className="ti-facebook"></i>
@@ -96,8 +104,8 @@ const Footer2 = (props) => {
                     <li key={Sitem}>
                       <Link
                         onClick={ClickHandler}
-                        href={"/service/[slug]"}
-                        as={`/service/${service.slug}`}
+                        href={`/${service.slug}`}
+                        as={`/${service.slug}`}
                       >
                         {service.sTitle}
                       </Link>

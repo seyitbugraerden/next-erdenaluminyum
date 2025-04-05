@@ -20,7 +20,7 @@ const ProjectSection = (props) => {
                             <span>Galeri</span>
                             <h2>Estetik ve Dayanıklılığın İzinde!</h2>
                             <p>Galeri alanımızda, Erden Alüminyum’un estetik ve dayanıklılığı bir araya getiren projelerini keşfedin! Her bir fotoğraf, kaliteli işçiliğimizin ve yenilikçi çözümlerimizin bir yansımasıdır.</p>
-                            <Link href="/project-single" className="theme-btn">Daha Fazla</Link>
+                            <Link href="/hakkimizda/galeri" className="theme-btn">Daha Fazla</Link>
                         </div>
                     </div>
                     <div className="col-lg-8">
