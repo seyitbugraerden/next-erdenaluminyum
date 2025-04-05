@@ -1768,6 +1768,15 @@
 		height: 350px !important;
 	}
 }
+
+#project__img{
+	transition: 500ms;
+}
+
+#project__img:hover{
+	filter: grayscale(100);
+	scale: .95;
+}
 .fixed-navbar.active .wpo-site-header {
 	position: fixed;
 	z-index: 555;

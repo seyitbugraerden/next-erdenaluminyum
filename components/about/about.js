@@ -43,10 +43,10 @@ const About = (props) => {
                 <p>Yıllık Deneyim</p>
               </div>
               <div className="images">
-                <Image src={abimg1} alt="" />
+                <Image src="/media/2.jpeg" fill alt="" />
               </div>
               <div className="bg-img">
-                <Image src={abimg2} alt="" />
+                <Image src="/media/38.jpeg" width={600} height={800} alt="" style={{width:"600px",height:"800px",objectFit:"cover"}} />
               </div>
             </div>
           </div>
