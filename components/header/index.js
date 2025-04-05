@@ -91,69 +91,43 @@ const Header = (props) => {
                   </Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link onClick={ClickHandler} href="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/team">
-                        Team
+                      <Link
+                        onClick={ClickHandler}
+                        href="/hizmetlerimiz/cam-balkon-sistemleri"
+                      >
+                        Cam Balkon Sistemleri
                       </Link>
                     </li>
                     <li>
                       <Link
                         onClick={ClickHandler}
-                        href="/team-single/Wade-Warren"
+                        href="/hizmetlerimiz/aluminyum-dograma-uygulamalari"
                       >
-                        Team Single
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/shop">
-                        Shop
+                        Alüminyum Doğrama Uygulamaları
                       </Link>
                     </li>
                     <li>
                       <Link
                         onClick={ClickHandler}
-                        href="/product-single/Bev-Accent-Chair"
+                        href="/hizmetlerimiz/dis-cephe-kaplama-sistemleri"
                       >
-                        Shop Single
+                        Dış Cephe Kaplama Sistemleri
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/cart">
-                        Cart
+                      <Link
+                        onClick={ClickHandler}
+                        href="/hizmetlerimiz/cephe-giydirme-sistemleri"
+                      >
+                        Cephe Giydirme Sistemleri
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/checkout">
-                        Checkout
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/pricing">
-                        Pricing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/404">
-                        404 Error
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/faq">
-                        FAQ
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/login">
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/register">
-                        Register
+                      <Link
+                        onClick={ClickHandler}
+                        href="/hizmetlerimiz/korkuluk-ve-guvenlik-sistemleri"
+                      >
+                        Korkuluk ve Güvenlik Sistemleri
                       </Link>
                     </li>
                   </ul>
