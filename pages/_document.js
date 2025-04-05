@@ -10,7 +10,25 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Arkitek – Architecture & Interior Next Js Template</title>
+          <meta
+            name="description"
+            content="  Erden Alüminyum, alüminyum doğrama, cam balkon sistemleri, PVC
+            kapı-pencere ve metal işleri alanında kaliteli ve güvenilir çözümler
+            sunar. Estetik, dayanıklı ve profesyonel uygulamalarla
+            hizmetinizdeyiz."
+          />
+          <meta
+            name="keywords"
+            content="alüminyum doğrama, metal doğrama atölyesi, cam balkon sistemleri, PVC kapı pencere, alüminyum kapı, alüminyum pencere, alüminyum korkuluk, alüminyum işler, metal imalat, özel metal tasarım, alüminyum sistemler, doğrama atölyesi, Erden Alüminyum, alüminyum atölyesi"
+          />
+          <meta name="author" content="Kerim Erden" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>
+            Erden Alüminyum | Alüminyum Doğrama & Metal İşleri Atölyesi
+          </title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
