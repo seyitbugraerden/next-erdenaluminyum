@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../../components/banner/banner";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 const AboutUsPage = () => {
   return (
