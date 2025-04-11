@@ -1263,7 +1263,7 @@
     static-hero-s3
 --------------------------------------------*/
 .static-hero-s3 {
-	background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, .1)), url(../../../public/banner.png);
+	background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, .1)), url(../../../public/banner.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	@include media-query(1399px) {

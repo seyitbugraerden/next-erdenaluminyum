@@ -40,20 +40,18 @@ const ProjectSection = (props) => {
                       <Masonry columnsCount={4} gutter="30px">
                         {Projects.slice(0, 4).map((project, i) => (
                           <div className="grid" key={i}>
-                            <Link href={project.pImg} className="img-holder" target="_blank">
-                              <Image
-                                src={project.pImg}
-                                alt=""
-                                id="project__img"
-                                width={700}
-                                height={400}
-                                style={{
-                                  width: "400px",
-                                  height: "300px",
-                                  objectFit: "cover",
-                                }}
-                              />
-                            </Link>
+                            <Image
+                              src={project.pImg}
+                              alt=""
+                              id="project__img"
+                              width={700}
+                              height={400}
+                              style={{
+                                width: "400px",
+                                height: "300px",
+                                objectFit: "cover",
+                              }}
+                            />
                           </div>
                         ))}
                       </Masonry>
