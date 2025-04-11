@@ -1271,14 +1271,14 @@
 	}
 
 	@include media-query(1199px) {
-		height: 700px;
+		height: 100dvh;
 	}
 
 	@include media-query(991px) {
-		height: 600px;
+		height: 100dvh;
 	}
 	@include media-query(767px) {
-		height: 500px;
+		height: 100dvh;
 	}
 	.hero-inner {
 		align-items: center;

@@ -10,10 +10,10 @@ const Hero = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-10 col-12">
                 <div className="wpo-static-hero-inner">
-                  <h2 className="title">
+                  <h2 className="title" style={{ fontSize: "56px",lineHeight:"65px" }}>
                     Dayanıklılığın ve Estetiğin Buluştuğu Nokta
                   </h2>
-                  <p>
+                  <p style={{ fontSize: "16px" }}>
                     Erden Alüminyum, modern mimariye uyumlu alüminyum doğrama
                     çözümleriyle yaşam alanlarınıza değer katar. Kaliteli
                     malzeme, titiz işçilik ve zamanında teslimat anlayışımızla
