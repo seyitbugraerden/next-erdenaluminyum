@@ -49,6 +49,7 @@ const GalleryPage = () => {
               style={{ cursor: "pointer" }}
             >
               <Image
+                id="img__gallery"
                 src={src}
                 width={300}
                 height={300}
