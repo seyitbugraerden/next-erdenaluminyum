@@ -6,6 +6,24 @@ import Link from "next/link";
 const AboutUsPage = () => {
   return (
     <>
+      {" "}
+      <Head>
+        <title>
+          Erden Alüminyum Referansları | Güvenilir Proje Ortaklarımız
+        </title>
+        <meta
+          name="description"
+          content="Erden Alüminyum’un cam balkon, cephe ve doğrama alanındaki güçlü referanslarını keşfedin. Memnun müşteri portföyümüzü inceleyin."
+        />
+        <meta
+          property="og:title"
+          content="Erden Alüminyum Referansları | Güvenilir Proje Ortaklarımız"
+        />
+        <meta
+          property="og:description"
+          content="Erden Alüminyum’un cam balkon, cephe ve doğrama alanındaki güçlü referanslarını keşfedin. Memnun müşteri portföyümüzü inceleyin."
+        />
+      </Head>
       <Banner text="Referanslarımız" />
       <section className="container mb-5">
         <div className="row">

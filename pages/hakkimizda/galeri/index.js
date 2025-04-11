@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Banner from "../../../components/banner/banner";
 import Image from "next/image";
 import FsLightbox from "fslightbox-react";
+import Head from "next/head";
 
 const GalleryPage = () => {
   const imageCount = 47;
@@ -20,6 +21,23 @@ const GalleryPage = () => {
 
   return (
     <>
+      <Head>
+        <title>
+          Erden Alüminyum Proje Galerisi | Cam Balkon ve Cephe Sistemleri
+        </title>
+        <meta
+          name="description"
+          content="Tamamladığımız cam balkon, cephe kaplama ve alüminyum doğrama projelerini galerimizde inceleyin. Estetik ve işçilik bir arada."
+        />
+        <meta
+          property="og:title"
+          content="Erden Alüminyum Proje Galerisi | Cam Balkon ve Cephe Sistemleri"
+        />
+        <meta
+          property="og:description"
+          content="Tamamladığımız cam balkon, cephe kaplama ve alüminyum doğrama projelerini galerimizde inceleyin. Estetik ve işçilik bir arada."
+        />
+      </Head>
       <Banner text="GALERİ" />
       <section className="container mb-5">
         <div className="row">

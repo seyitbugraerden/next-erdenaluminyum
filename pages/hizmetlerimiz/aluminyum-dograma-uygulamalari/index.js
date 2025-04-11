@@ -1,9 +1,27 @@
 import React from "react";
 import Banner from "../../../components/banner/banner";
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>
+          Alüminyum Doğrama Sistemleri | Erden Alüminyum Kalitesiyle
+        </title>
+        <meta
+          name="description"
+          content="Yüksek dayanıklılığa sahip, estetik ve uzun ömürlü alüminyum doğrama çözümleri. Erden Alüminyum ile yapılarınıza değer katın."
+        />
+        <meta
+          property="og:title"
+          content="Alüminyum Doğrama Sistemleri | Erden Alüminyum Kalitesiyle"
+        />
+        <meta
+          property="og:description"
+          content="Yüksek dayanıklılığa sahip, estetik ve uzun ömürlü alüminyum doğrama çözümleri. Erden Alüminyum ile yapılarınıza değer katın."
+        />
+      </Head>
       <Banner text="ALÜMİNYUM DOĞRAMA UYGULAMARI" />
 
       <div className="container">

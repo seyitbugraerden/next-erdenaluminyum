@@ -1,9 +1,27 @@
 import React from "react";
 import Banner from "../../../components/banner/banner";
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>
+          Cephe Giydirme Sistemleri | Modern Cephe Çözümleri Erden'de
+        </title>
+        <meta
+          name="description"
+          content="Estetik ve yalıtım sağlayan cephe giydirme sistemleri ile yapılarınıza değer katın. Erden Alüminyum’da yenilikçi dış cephe çözümleri."
+        />
+        <meta
+          property="og:title"
+          content="Cephe Giydirme Sistemleri | Modern Cephe Çözümleri Erden'de"
+        />
+        <meta
+          property="og:description"
+          content="Estetik ve yalıtım sağlayan cephe giydirme sistemleri ile yapılarınıza değer katın. Erden Alüminyum’da yenilikçi dış cephe çözümleri."
+        />
+      </Head>
       <Banner text="CEPHE GİYDİRME SİSTEMLERİ" />
 
       <div className="container">

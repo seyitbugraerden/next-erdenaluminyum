@@ -26,9 +26,7 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <title>
-            Erden Alüminyum | Alüminyum Doğrama & Metal İşleri Atölyesi
-          </title>
+          <title>Erden Alüminyum | Cam Balkon & Alüminyum Doğrama</title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link

@@ -1,11 +1,29 @@
 import React from "react";
 import Banner from "../../../components/banner/banner";
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
+      {" "}
+      <Head>
+        <title>
+          Cam Balkon Sistemleri | Estetik ve Konfor Erden Alüminyum'da
+        </title>
+        <meta
+          name="description"
+          content="Modern tasarıma sahip cam balkon sistemleri ile yaşam alanlarınızı dört mevsim kullanın. Şık, dayanıklı ve fonksiyonel çözümler sunuyoruz."
+        />
+        <meta
+          property="og:title"
+          content="Cam Balkon Sistemleri | Estetik ve Konfor Erden Alüminyum'da"
+        />
+        <meta
+          property="og:description"
+          content="Modern tasarıma sahip cam balkon sistemleri ile yaşam alanlarınızı dört mevsim kullanın. Şık, dayanıklı ve fonksiyonel çözümler sunuyoruz."
+        />
+      </Head>
       <Banner text="CAM BALKON SİSTEMLERİ" />
-
       <div className="container">
         <div>
           <div className="about-left-item mt-5">

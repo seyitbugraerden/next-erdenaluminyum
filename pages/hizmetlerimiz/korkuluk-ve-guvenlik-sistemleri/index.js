@@ -1,9 +1,27 @@
 import React from "react";
 import Banner from "../../../components/banner/banner";
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>
+          Korkuluk ve Güvenlik Sistemleri | Dayanıklı Çözümler Erden’de
+        </title>
+        <meta
+          name="description"
+          content="Balkon, merdiven ve teraslar için estetik ve sağlam korkuluk sistemleri. Erden Alüminyum ile güvenliği ve şıklığı bir arada sunuyoruz."
+        />
+        <meta
+          property="og:title"
+          content="Korkuluk ve Güvenlik Sistemleri | Dayanıklı Çözümler Erden’de"
+        />
+        <meta
+          property="og:description"
+          content="Balkon, merdiven ve teraslar için estetik ve sağlam korkuluk sistemleri. Erden Alüminyum ile güvenliği ve şıklığı bir arada sunuyoruz."
+        />
+      </Head>
       <Banner text="KORKULUK VE GÜVENLİK SİSTEMLERİ" />
 
       <div className="container">

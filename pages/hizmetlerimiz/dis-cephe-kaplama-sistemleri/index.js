@@ -1,11 +1,30 @@
 import React from "react";
 import Banner from "../../../components/banner/banner";
+import Head from "next/head";
 
 const Index = () => {
   return (
     <>
+      {" "}
+      <Head>
+        <title>
+          Dış Cephe Kaplama Sistemleri | Erden Alüminyum Uzmanlığıyla
+        </title>
+        <meta
+          name="description"
+          content="Binalarınız için dayanıklı, estetik ve uzun ömürlü dış cephe kaplama çözümleri. Erden Alüminyum ile modern yapılar sizi bekliyor."
+        />
+        <meta
+          property="og:title"
+          content="Dış Cephe Kaplama Sistemleri | Erden Alüminyum Uzmanlığıyla
+"
+        />
+        <meta
+          property="og:description"
+          content="Binalarınız için dayanıklı, estetik ve uzun ömürlü dış cephe kaplama çözümleri. Erden Alüminyum ile modern yapılar sizi bekliyor."
+        />
+      </Head>
       <Banner text="DIŞ CEPHE KAPLAMA SİSTEMLERİ" />
-
       <div className="container">
         <div>
           <div className="about-left-item mt-5">
