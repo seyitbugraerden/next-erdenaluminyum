@@ -14,17 +14,18 @@ export async function getServerSideProps({ res }) {
     "hizmetlerimiz/aluminyum-dograma-sistemleri",
   ];
 
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  const sitemap =
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${staticPages
     .map((page) => {
-      return `
-    <url>
-      <loc>${baseUrl}/${page}</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
-    </url>`;
+      const loc = `${baseUrl}/${page}`.replace(/\/+$/, ""); // son slash'ı temizle
+      return `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+  </url>`;
     })
-    .join("")}
+    .join("\n")}
 </urlset>`;
 
   res.setHeader("Content-Type", "text/xml");
@@ -35,6 +36,5 @@ export async function getServerSideProps({ res }) {
 }
 
 export default function SiteMap() {
-  // sayfa tarayıcıda render edilmez, sadece XML üretir
   return null;
 }
